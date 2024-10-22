@@ -1,0 +1,15 @@
+.shimmer-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  .shimmer-cards {
+    /* border: 1px solid #ddd; */
+    background-color: rgb(246, 246, 246);
+    padding: 20px;
+    width: 180px;
+    height: 250px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0.25px 0.25px 15px 1px rgb(232, 229, 229);
+  }
